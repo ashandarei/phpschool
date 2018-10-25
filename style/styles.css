@@ -1,0 +1,338 @@
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	margin: 0 auto;
+        width: 100%;
+	padding: 0;
+	background-color: #505050;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+main
+{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #252525;
+    margin-bottom: 150px;
+    padding: 1em 5em;
+    margin-top: 10px;
+    max-width: 700px;
+}
+
+form
+{
+    color: white;
+    font-size: 1.4em;
+}
+section p
+{
+    line-height: 1;
+    padding: 5px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: .2em;
+	font-weight: 500;
+	line-height: .95;
+}
+
+h1 { font-size: 2.25em; font-weight: bold } /* 36px */
+h2 
+{
+    font-size: 1.75em;
+    background-color: #252525;
+    display: block;
+    margin: .1em;
+} /* 28px */
+h3 
+{ 
+    font-size: 1.375em;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+} /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+        color: white;
+}
+
+blockquote
+{
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link { color: #151515; }
+a:visited { color: black; }
+
+a:focus
+{
+	color: black;
+}
+
+a:hover
+{
+	color: black;
+}
+
+a:active
+{
+	color: black;
+}
+
+hr
+{
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+table
+{
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #ddd;
+}
+
+th, td
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+a:link { color: royalblue; }
+
+a:focus { color: black; }
+
+a:active { color: red; }
+
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
+{
+	max-width: 100em;
+	margin: 0 auto;
+	background-color: #252525;
+}
+
+header
+{
+	padding: 1em 1.25em;
+}
+
+.header-heading { margin: 0; }
+
+article
+{
+    background-color: #909090;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 1em;
+    padding: 1px;
+}
+
+
+
+p img
+{
+    float: right;
+    overflow: auto;
+}
+
+nav
+{
+	background-color: #252525;
+	padding: 0;
+        clear: both;
+        margin: 0;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        text-align: justify;
+        min-width: 500px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: white;
+}
+
+.content { padding: 1em 1.25em; }
+
+footer
+{
+     position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background: #252525;
+    padding: 1em 1.25em;
+    clear: both;
+    border-top-style: solid;
+    border-top-width: 1px;
+   
+} 
+
+footer p
+{
+    text-align: center;
+}
+
+/* -----------------------
+Nav
+------------------------*/
+
+.navbtn
+{
+	margin: 0;
+	padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+}
+
+.navbtn li
+{
+	float: left;
+}
+
+.navbtn a
+{
+	display: block;
+	padding: .7em 1.25em;
+	text-decoration: none;
+}
+
+.navbtn a:link { color: #CCCCCC; }
+.navbtn a:visited { color: #CCCCCC; }
+
+
+
+.navbtn a:hover
+{
+	background-color: #454545;
+}
+
+.navbtn a:active
+{
+	background-color: #010101;
+}
+
+/* -----------------------
+Single styles
+------------------------*/
+
+.img-responsive { max-width: 100%; }
+
+.btn
+{
+	color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
+}
+
+.btn:hover
+{
+	color: #fff !important;
+	background-color: green;
+}
+
+.btn:focus
+{
+	color: #fff !important;
+	background-color: black;
+}
+
+.btn:active
+{
+	color: #fff !important;
+	background-color: red;
+}
+
+.table
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+/* -----------------------
+Wide styles
+------------------------*/
+
+@media (min-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
+}
